@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="700.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="metrosegurofx.loginController">
+   <children>
+      <AnchorPane layoutX="204.0" layoutY="151.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: transparent;" AnchorPane.bottomAnchor="47.0" AnchorPane.leftAnchor="23.0" AnchorPane.rightAnchor="23.0" AnchorPane.topAnchor="47.0">
+         <children>
+            <AnchorPane layoutX="327.0" layoutY="32.0" maxWidth="294.0" prefHeight="444.0" prefWidth="294.0" style="-fx-background-color: white; -fx-background-radius: 1em;" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="327.0" AnchorPane.rightAnchor="33.0" AnchorPane.topAnchor="32.0">
+               <children>
+                  <Label layoutX="56.0" layoutY="36.0" prefHeight="39.0" prefWidth="83.0" text="Ingresar" AnchorPane.leftAnchor="56.0" AnchorPane.rightAnchor="146.0" AnchorPane.topAnchor="37.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <JFXTextField focusColor="#ff8a59" labelFloat="true" layoutX="47.0" layoutY="123.0" prefHeight="39.0" prefWidth="218.0" promptText="Usuario" AnchorPane.leftAnchor="56.0" AnchorPane.rightAnchor="19.0" />
+                  <JFXPasswordField focusColor="#ff8a59" labelFloat="true" layoutX="47.0" layoutY="207.0" prefHeight="31.0" prefWidth="218.0" promptText="contraseña" AnchorPane.leftAnchor="56.0" AnchorPane.rightAnchor="19.0" />
+                  <JFXButton fx:id="entrar" buttonType="RAISED" layoutX="52.0" layoutY="293.0" onAction="#entrar" prefHeight="31.0" prefWidth="219.0" ripplerFill="#ffd966" style="-fx-background-color: orange; -fx-background-radius: 2em;" text="Entrar" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="14.0" layoutY="19.0" prefHeight="469.0" prefWidth="341.0" style="-fx-background-color: linear-gradient(to right top, #ff3c00, #ff4d00, #ff5b03, #ff6808, #ff7310, #ff8025, #ff8c36, #ff9746, #fea762, #fcb67d, #fac599, #f6d3b6); -fx-background-radius: 1em;" AnchorPane.bottomAnchor="18.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="19.0">
+               <children>
+                  <VBox layoutX="84.0" layoutY="88.0" prefHeight="164.0" prefWidth="249.0">
+                     <children>
+                        <Label text="Metro Seguro" textAlignment="CENTER" textFill="WHITE" textOverrun="WORD_ELLIPSIS">
+                           <font>
+                              <Font name="Berlin Sans FB" size="30.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="8.0" prefWidth="255.0" text="Sistema protegido contra robo de " textFill="WHITE" />
+                        <Label text="videos de seguridad" textFill="WHITE" />
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

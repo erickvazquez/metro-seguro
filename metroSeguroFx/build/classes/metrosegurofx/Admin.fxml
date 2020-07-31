@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="689.0" prefWidth="1222.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="57.0" prefWidth="1222.0" style="-fx-background-color: orange;">
+         <children>
+            <Separator layoutX="146.0" layoutY="13.0" orientation="VERTICAL" prefHeight="28.0" prefWidth="6.0" />
+            <Separator layoutX="608.0" layoutY="14.0" orientation="VERTICAL" prefHeight="28.0" prefWidth="6.0" />
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="67.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../Documents/OCTAVO-SEMESTRE-ESCOM/IS/avatar%20(2).png" />
+               </image>
+            </ImageView>
+            <Label layoutX="158.0" layoutY="15.0" nodeOrientation="LEFT_TO_RIGHT" opacity="0.83" prefHeight="32.0" prefWidth="179.0" text="BIENVENIDO ERICK" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="19.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="DISAPPEAR" />
+               </cursor>
+            </Label>
+            <Label layoutX="337.0" layoutY="9.0" opacity="0.49" prefHeight="40.0" prefWidth="263.0" text="Usuario Administrador" textFill="WHITE">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="31.0" fitWidth="40.0" layoutX="1104.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../Documents/OCTAVO-SEMESTRE-ESCOM/IS/shapes-and-symbols.png" />
+               </image>
+            </ImageView>
+            <Separator layoutX="1040.0" layoutY="13.0" orientation="VERTICAL" prefHeight="28.0" prefWidth="6.0" />
+            <JFXTextField focusColor="WHITE" labelFloat="true" layoutX="745.0" layoutY="19.0" promptText="Buscar empleado" unFocusColor="#c97a35" />
+            <ImageView fitHeight="31.0" fitWidth="33.0" layoutX="699.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../Documents/OCTAVO-SEMESTRE-ESCOM/IS/magnifying-glass.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label layoutX="432.0" layoutY="57.0" prefHeight="57.0" prefWidth="359.0" text="No hay ningun empleado agregado" textFill="#868686">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="442.0" fitWidth="719.0" layoutX="198.0" layoutY="205.0" opacity="0.42" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../Documents/OCTAVO-SEMESTRE-ESCOM/IS/logoProyecto3.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutY="139.0" prefHeight="40.0" prefWidth="1222.0" style="-fx-background-color: #E5E3E2; -fx-border-color: #F5F3F2; -fx-border-width: 3;">
+         <children>
+            <Separator layoutX="143.0" layoutY="13.0" orientation="VERTICAL" prefHeight="57.0" prefWidth="6.0" style="-fx-background-color: black;" />
+            <Separator layoutX="539.0" layoutY="10.0" orientation="VERTICAL" prefHeight="57.0" prefWidth="6.0" style="-fx-background-color: black;" />
+            <Separator layoutX="1050.0" layoutY="10.0" orientation="VERTICAL" prefHeight="57.0" prefWidth="6.0" style="-fx-background-color: black;" />
+            <Separator layoutX="922.0" layoutY="10.0" orientation="VERTICAL" prefHeight="57.0" prefWidth="6.0" style="-fx-background-color: black;" />
+            <ImageView fitHeight="57.0" fitWidth="67.0" layoutX="37.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../Documents/OCTAVO-SEMESTRE-ESCOM/IS/user.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="199.0" layoutY="29.0" prefHeight="28.0" prefWidth="308.0" text="Nombre completo del empleado">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="632.0" layoutY="27.0" prefHeight="32.0" prefWidth="236.0" text="Puesto del empleado">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="935.0" layoutY="55.0" prefHeight="21.0" prefWidth="118.0" text="Mas información" />
+            <Label layoutX="1070.0" layoutY="55.0" text="Eliminar empleado" />
+            <ImageView fitHeight="51.0" fitWidth="57.0" layoutX="969.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../Documents/OCTAVO-SEMESTRE-ESCOM/IS/signs.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="51.0" fitWidth="51.0" layoutX="1107.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../Documents/OCTAVO-SEMESTRE-ESCOM/IS/rubbish-can.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="1.0" layoutY="57.0" prefHeight="40.0" prefWidth="1222.0" style="-fx-background-color: #E5E3E2; -fx-border-color: #F5F3F2; -fx-border-width: 3;">
+         <children>
+            <Separator layoutX="143.0" layoutY="13.0" orientation="VERTICAL" prefHeight="57.0" prefWidth="6.0" style="-fx-background-color: black;" />
+            <Separator layoutX="539.0" layoutY="10.0" orientation="VERTICAL" prefHeight="57.0" prefWidth="6.0" style="-fx-background-color: black;" />
+            <Separator layoutX="1050.0" layoutY="10.0" orientation="VERTICAL" prefHeight="57.0" prefWidth="6.0" style="-fx-background-color: black;" />
+            <Separator layoutX="922.0" layoutY="10.0" orientation="VERTICAL" prefHeight="57.0" prefWidth="6.0" style="-fx-background-color: black;" />
+            <ImageView fitHeight="57.0" fitWidth="67.0" layoutX="37.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../Documents/OCTAVO-SEMESTRE-ESCOM/IS/user.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="199.0" layoutY="29.0" prefHeight="28.0" prefWidth="308.0" text="Nombre completo del empleado">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="632.0" layoutY="27.0" prefHeight="32.0" prefWidth="236.0" text="Puesto del empleado">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="935.0" layoutY="55.0" prefHeight="21.0" prefWidth="118.0" text="Mas información" />
+            <Label layoutX="1070.0" layoutY="55.0" text="Eliminar empleado" />
+            <ImageView fitHeight="51.0" fitWidth="57.0" layoutX="969.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../Documents/OCTAVO-SEMESTRE-ESCOM/IS/signs.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="51.0" fitWidth="51.0" layoutX="1107.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../Documents/OCTAVO-SEMESTRE-ESCOM/IS/rubbish-can.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.media.MediaView?>
+
+<BorderPane prefHeight="833.0" prefWidth="1140.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="metrosegurofx.FXMLDocumentController">
+   <bottom>
+      <VBox alignment="TOP_CENTER" prefHeight="0.0" prefWidth="1140.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="TOP_CENTER" prefHeight="154.0" prefWidth="1140.0">
+               <children>
+                  <ImageView fitHeight="93.0" fitWidth="140.0" onMouseClicked="#slowerVideo" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@rebobinar.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets right="20.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Separator orientation="VERTICAL" prefHeight="93.0" prefWidth="0.0" />
+                  <ImageView fitHeight="105.0" fitWidth="53.0" onMouseClicked="#slowVideo" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@flechas%20-%20copia.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="20.0" right="20.0" top="20.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Separator orientation="VERTICAL" prefHeight="93.0" prefWidth="0.0" />
+                  <ImageView fitHeight="93.0" fitWidth="93.0" onMouseClicked="#stopVideo" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@detener.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="20.0" right="20.0" top="5.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="93.0" fitWidth="93.0" onMouseClicked="#playVideo" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@opcion-multimedia.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="20.0" right="20.0" top="5.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="93.0" fitWidth="93.0" onMouseClicked="#pauseVideo" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@senales.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets right="20.0" top="5.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Separator orientation="VERTICAL" prefHeight="93.0" prefWidth="0.0" />
+                  <ImageView fitHeight="60.0" fitWidth="53.0" onMouseClicked="#fastVideo" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@flechas%20-%20copia_1.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="20.0" right="20.0" top="20.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Separator orientation="VERTICAL" prefHeight="93.0" prefWidth="0.0" />
+                  <ImageView fitHeight="105.0" fitWidth="149.0" onMouseClicked="#fasterVideo" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@avance-rapido%20(1).png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </bottom>
+   <top>
+      <ImageView fitHeight="81.0" fitWidth="132.0" onMouseClicked="#handleButtonAction" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="TOP_LEFT">
+         <image>
+            <Image url="@carpeta%20(1).png" />
+         </image>
+         <BorderPane.margin>
+            <Insets left="10.0" top="10.0" />
+         </BorderPane.margin>
+      </ImageView>
+   </top>
+   <center>
+      <StackPane prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <MediaView fx:id="mediaView" fitHeight="200.0" fitWidth="200.0" />
+         </children>
+      </StackPane>
+   </center>
+</BorderPane>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="metroSeguroFx.jnlp">
+  <information>
+    <title>metroSeguroFx</title>
+    <vendor>EHef_</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\artoolkitplus-windows-x86_64.jar" size="155157" download="eager" />
+    <jar href="lib\base64-2.0.0.jar" size="8983" download="eager" />
+    <jar href="lib\commons-codec-1.14-javadoc.jar" size="523406" download="eager" />
+    <jar href="lib\commons-codec-1.14-sources.jar" size="355956" download="eager" />
+    <jar href="lib\commons-codec-1.14-test-sources.jar" size="217401" download="eager" />
+    <jar href="lib\commons-codec-1.14-tests.jar" size="316423" download="eager" />
+    <jar href="lib\commons-codec-1.14.jar" size="347669" download="eager" />
+    <jar href="lib\ffmpeg-windows-x86.jar" size="11994991" download="eager" />
+    <jar href="lib\ffmpeg-windows-x86_64.jar" size="12434231" download="eager" />
+    <jar href="lib\ffmpeg.jar" size="236905" download="eager" />
+    <jar href="lib\flandmark-windows-x86.jar" size="33119" download="eager" />
+    <jar href="lib\flandmark-windows-x86_64.jar" size="41105" download="eager" />
+    <jar href="lib\flandmark.jar" size="11774" download="eager" />
+    <jar href="lib\flycapture-windows-x86.jar" size="188967" download="eager" />
+    <jar href="lib\flycapture-windows-x86_64.jar" size="241392" download="eager" />
+    <jar href="lib\flycapture.jar" size="142827" download="eager" />
+    <jar href="lib\javabase64-1.3.1.jar" size="4364" download="eager" />
+    <jar href="lib\javacpp.jar" size="312994" download="eager" />
+    <jar href="lib\javacv.jar" size="385827" download="eager" />
+    <jar href="lib\javafx-base-14.0.1.jar" size="302" download="eager" />
+    <jar href="lib\jfoenix-8.0.8.jar" size="2708772" download="eager" />
+    <jar href="lib\libdc1394-windows-x86.jar" size="209191" download="eager" />
+    <jar href="lib\libdc1394-windows-x86_64.jar" size="188043" download="eager" />
+    <jar href="lib\libdc1394.jar" size="30724" download="eager" />
+    <jar href="lib\libfreenect-windows-x86.jar" size="167793" download="eager" />
+    <jar href="lib\libfreenect-windows-x86_64.jar" size="192509" download="eager" />
+    <jar href="lib\libfreenect.jar" size="21946" download="eager" />
+    <jar href="lib\libfreenect2.jar" size="24026" download="eager" />
+    <jar href="lib\librealsense.jar" size="45356" download="eager" />
+    <jar href="lib\opencv-windows-x86.jar" size="8472928" download="eager" />
+    <jar href="lib\opencv-windows-x86_64.jar" size="10330607" download="eager" />
+    <jar href="lib\opencv.jar" size="684821" download="eager" />
+    <jar href="lib\videoinput-windows-x86.jar" size="38268" download="eager" />
+    <jar href="lib\videoinput-windows-x86_64.jar" size="46714" download="eager" />
+    <jar href="lib\videoinput.jar" size="15518" download="eager" />
+    <jar href="metroSeguroFx.jar" size="481943" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="metroSeguroFx" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="metrosegurofx.MetroSeguroFx"  name="metroSeguroFx" />
+  <update check="always"/>
+</jnlp>
