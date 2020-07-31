@@ -11,6 +11,8 @@ A software that uses a trained neural network to identify, using a camera pointe
 
 We also used cryptography and steganography in a video player made by us, to make it imposible for the employee to save or steal the video files.
 
+The neural network was worked on python, end the video player was made with java.
+
 
 ![logoProyecto2](https://user-images.githubusercontent.com/23347652/89088333-5170fd00-d35d-11ea-9ff7-e69396e19f78.png)
 ![metro1](https://user-images.githubusercontent.com/23347652/89088482-3488f980-d35e-11ea-9f3f-0e61174efa73.JPG)
