@@ -13,3 +13,6 @@ We also used cryptography and steganography in a video player made by us, to mak
 
 See the video(it's in spanish) for a functional example and a better explanation.
 
+![logoProyecto2](https://user-images.githubusercontent.com/23347652/89088333-5170fd00-d35d-11ea-9ff7-e69396e19f78.png)
+![metro1](https://user-images.githubusercontent.com/23347652/89088482-3488f980-d35e-11ea-9f3f-0e61174efa73.JPG)
+![metro2](https://user-images.githubusercontent.com/23347652/89088484-3783ea00-d35e-11ea-805d-c1ea9f91b4f3.JPG)
